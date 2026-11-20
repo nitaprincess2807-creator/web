@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+     font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color:rgb(241, 148, 148);
+    padding-top: 30px;
+}
+
+
+
+body > header{
+    background-color: rgb(236, 95, 95);
+}
+
+header > p {
+    text-align: center;
+    color: rgb(255, 240, 240);
+}
+
+
+nav{
+    background-color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    color: blue rgb(12, 12, 128);
+}
+
+li a{
+    color: darkblue;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content{
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0 ,0, 0.20);
+    border-radius: 12px;
+}
+
+aside{
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+
+aside header h2{
+    color: cornsilk
+    text-align: center;
+}
+
+#sejarah p {
+    padding: 15px;
+}
+
+#wisata p {
+    padding: 15px;
+
+}
+
+#geografis p{
+    padiing: 15px;
+}
+
+h2 > header{
+    text-align: center;
+}
+
+article h2 {
+    display:block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+#sejarah h2 {
+    margin-top: 20px;
+}
+
+header h2 {
+    margin-left: 20px;
+}
+h2 {
+    margin: ;
+}
+
+/* Membuat piinggiran kotak melengkung */
+aside article {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/*Membuat logo Bandung ke tenah */
+aside article figure {
+     text-align: center;
+} 
+
+aside article figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+aside article section h3 {
+    text-align: center;
+}
